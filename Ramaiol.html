@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramailo</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .wrapper{
+            width: 1040px;
+            margin: 50px auto;
+        }
+        .section-title{
+            font-size: 32px;
+            text-transform: uppercase;
+            font-weight: 600;
+            text-align: center;
+        }
+        .service-and-restaurant{
+            display: flex;
+            justify-content: center;
+        }
+        .our-service h4 , .restaurant-food h4{
+            font-size: 24px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .our-service{
+            padding-top: 10px;
+        }
+        .our-service > ol{
+            /* margin: 20px 0px 20px 20px; */
+            margin-left: 20px;
+        }
+        .our-service > ol li span, .our-service p{
+            font-size: 21px;
+            padding: 5px;
+            color: gray;
+        }
+        ::marker {
+            font-size: 21px;
+            padding: 5px;
+            color: gray;
+        }
+        .restaurant-food{
+            margin-left: 15px;
+            padding-top: 10px;
+        }
+        .restaurant-food table,tr,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            font-size: 19px;
+        }
+        .restaurant-food table{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <section class="wrapper">
+        <h2 class="section-title">Ramailo Hotel</h2>
+        <div class="service-and-restaurant">
+            <div class="our-service">
+                <h4>our services</h4>
+                <ol type="a">
+                    <li><span>Restaurant</span></li>
+                    <li><span>Sight Seen</span></li>
+                    <li><span>Mountain Tour</span></li>
+                    <li><span>Catering</span></li>
+                </ol>
+                <p>For More Information contact 01718069307</p>
+            </div>
+            <div class="restaurant-food">
+                <h4>Restaurants food</h4>
+                <table>
+                    <tr>
+                        <th colspan="2">Food</th>
+                    </tr>
+                    <tr>
+                        <td>1.Nepali</td>
+                        <td>2.Indian</td>
+                    </tr><tr>
+                        <td>3.Chinese</td>
+                        <td>4.American</td>
+                    </tr><tr>
+                        <td>5.Korian</td>
+                        <td>6.Japanese</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
